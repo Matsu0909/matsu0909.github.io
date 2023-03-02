@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+:root{
+    --cor1: black;
+    --cor2: white;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Kalam', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    margin: auto;
+    min-height: 100vh;
+}
+header{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+header > h1{
+    margin: 0;
+    font-size: 8vw;
+    font-variant: small-caps;
+}
+a{
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+div{
+    max-width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3vw;
+}
+div.branco{
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+div.imagem{
+    background-size: cover;
+    text-shadow: 1px 1px 1px rgb(74, 74, 74);
+    color: var(--cor2);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.276);
+}
+div#img1{
+    background: var(--cor1) url(pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
+}
+div#img1 > p {
+    background-color: rgba(159, 159, 159, 0.511);
+    max-width: 40vw;
+}
+div#img2{
+    background: var(--cor1) url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+
+}
+div#img2 > p {
+    background-color: rgba(72, 72, 72, 0.651);
+    max-width: 40vw;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+}
